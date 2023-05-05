@@ -96,7 +96,7 @@
                     <div class="row-table">
                         <div class="col-cell header-logo">
                             <div class="logo-part">
-                                <a href="index.html"><img src="assets/images/logo-star.png" alt=""></a>
+                                <a href="/"><img src="assets/images/logo-star.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-cell">
@@ -160,7 +160,7 @@
                     <div class="row-table">
                         <div class="col-cell header-logo">
                             <div class="logo-area">
-                                <a href="index.html">
+                                <a href="/">
                                     <img class="normal-logo" src="assets/images/logo-star.png" alt="logo">
                                     <img class="sticky-logo" src="assets/images/logo-star.png" alt="logo">
                                 </a>
@@ -874,7 +874,7 @@
                      data-ipad-device="4" data-ipad-device-nav="false" data-ipad-device-dots="false"
                      data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false">
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/marcone-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/marcone-logo.png" title=""
@@ -882,7 +882,7 @@
                         </a>
                     </div>
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/Sears-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/Sears-logo.png" title=""
@@ -890,7 +890,7 @@
                         </a>
                     </div>
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/lg-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/lg-logo.png" title=""
@@ -898,7 +898,7 @@
                         </a>
                     </div>
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/samsung-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/samsung-logo.png" title=""
@@ -1004,7 +1004,7 @@
             <div class="row">
                 <div class="col-lg-3 pr-20 md-pr-15 md-mb-20">
                     <div class="footer-logo mb-51 md-mb-30">
-                        <a href="index.html"><img src="assets/images/logo-star.png" alt=""></a>
+                        <a href="/"><img src="assets/images/logo-star.png" alt=""></a>
                     </div>
                     <div class="textwidget">
                         <p class="pb-20">Welcome to our appliance service company! We offer a wide range of repair services for all types of appliances.</p>
@@ -1047,7 +1047,7 @@
                 <div class="col-lg-3 md-mb-10">
                     <h3 class="footer-title">Site Map</h3>
                     <ul class="site-map">
-                        <li><a href="#rs-header">Home</a></li>
+                        <li><a href="#rs-banner">Home</a></li>
                         <li><a href="#rs-about">About</a></li>
                         <li><a href="#rs-services">Services</a></li>
                         <li><a href="#rs-project">Projects</a></li>
@@ -1057,7 +1057,7 @@
                 </div>
                 <div class="col-lg-3">
                     <h3 class="footer-title">Newsletter</h3>
-                    <p class="widget-desc">Tetur adipiscing elit, sed do eiusmod tempor in cididunt ut labore.</p>
+                    <p class="widget-desc">Subscribe to our newsletter</p>
                     <p>
                         <input type="email" name="email" placeholder="Your Email Address" required="">
                         <input type="submit" value="Subscribe Now">
