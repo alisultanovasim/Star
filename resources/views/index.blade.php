@@ -530,7 +530,7 @@
                                     <div class="counter-right-border"></div>
                                     <div class="count-text">
                                         <div class="count-number">
-                                            <span class="rs-count">552</span>
+                                            <span class="rs-count">100</span>
                                             <span class="prefix">+</span>
                                         </div>
                                         <span class="title">Happy Customers</span>
@@ -541,8 +541,8 @@
                                 <div class="rs-counter-list widget-padding">
                                     <div class="count-text">
                                         <div class="count-number">
-                                            <span class="rs-count">652</span>
-                                            <span class="prefix">k</span>
+                                            <span class="rs-count">53</span>
+                                            <!-- <span class="prefix">k</span> -->
                                         </div>
                                         <span class="title">Completed Cases</span>
                                     </div>
