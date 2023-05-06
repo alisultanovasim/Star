@@ -501,9 +501,9 @@
             <div class="row y-middle">
                 <div class="col-lg-6 md-mb-50">
                     <div class="widget-img">
-                        <img src="assets/images/about/style3/electrician.jpg" alt="About">
+                        <img src="assets/images/about/style3/electrician.webp" alt="About">
                         <div class="multi-img wow fadeinup">
-                            <img style="width: 250px; height: 200px; border: 8px solid #fff;" src="assets/images/about/style3/fixing-washing.jpg" alt="">
+                            <img style="width: 250px; height: 200px; border: 8px solid #fff;" src="assets/images/about/style3/fixing-washing.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -702,7 +702,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/electrician.jpg" alt="images">
+                            <img src="assets/images/project/style3/electrician.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -715,7 +715,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing1.jpeg" alt="images">
+                            <img src="assets/images/project/style3/washing1.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -728,7 +728,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing2.jpg" alt="images">
+                            <img src="assets/images/project/style3/washing2.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -741,7 +741,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing3.jpg" alt="images">
+                            <img src="assets/images/project/style3/washing3.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -754,7 +754,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item 1 filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing4.jpg" alt="images">
+                            <img src="assets/images/project/style3/washing4.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -767,7 +767,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/refrigerator.jpg" alt="images">
+                            <img src="assets/images/project/style3/refrigerator.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -780,7 +780,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/refrigerator2.jpg" alt="images">
+                            <img src="assets/images/project/style3/refrigerator2.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -793,7 +793,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter3">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/oven.jpg" alt="images">
+                            <img src="assets/images/project/style3/oven.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -806,7 +806,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter4">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/stove.jpg" alt="images">
+                            <img src="assets/images/project/style3/stove.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
