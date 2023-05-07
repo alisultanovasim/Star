@@ -307,7 +307,7 @@ ul {
   background-size: cover;
 }
 .bg16 {
-  background: url(../images/project/style3/washing1.jpeg);
+  background: url(../images/project/style3/washing1.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2891,6 +2891,11 @@ blockquote p {
   transition: all 0.3s ease 0s;
   z-index: 10;
 }
+@media(max-width: 992px){
+  .full-width-header .rs-header .menu-area {
+    position: fixed;
+  }
+}
 .full-width-header .rs-header .menu-area .row-table {
   display: flex;
   width: 100%;
@@ -3575,9 +3580,6 @@ blockquote p {
   i:hover {
   color: #e8271e;
 }
-.full-width-header .rs-header.header-style1 .menu-area {
-  background: #010d14;
-}
 .full-width-header
   .rs-header.header-style1
   .menu-area
@@ -3786,9 +3788,6 @@ blockquote p {
   .sticky_form {
   top: 49px;
   right: -208px;
-}
-.full-width-header .rs-header.header-style1.header-blue-modify2 .menu-area {
-  background: unset;
 }
 .full-width-header .rs-header.header-style1.header-blue-modify2 .box-layout {
   position: relative;

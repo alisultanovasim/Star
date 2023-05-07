@@ -78,10 +78,10 @@
                                 <ul class="clearfix">
                                     <li class="opening"> <em><i class="fi fi-rr-time-add"></i> Hours: Mon-Fri: 9.00
                                             am - 7.00 pm</em> </li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                                    <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
                                     <li><a href="https://wa.me/12014568806"><i class="fa fa-whatsapp"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
                                 </ul>
                             </div>
                         </div>
@@ -96,7 +96,7 @@
                     <div class="row-table">
                         <div class="col-cell header-logo">
                             <div class="logo-part">
-                                <a href="index.html"><img src="assets/images/logo-star.png" alt=""></a>
+                                <a href="/"><img src="assets/images/logo-star.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-cell">
@@ -110,9 +110,11 @@
                                             Address
                                         </div>
                                         <div class="info-des">
-                                            08852, New Jersey, USA
-                                            <br>
-                                            2110 Sugar Maple Ct
+                                                <a href="https://goo.gl/maps/JCiuQqo48NWVrNCc7">
+													08852, New Jersey, USA
+													<br>
+													2110 Sugar Maple Ct
+												</a>
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +160,7 @@
                     <div class="row-table">
                         <div class="col-cell header-logo">
                             <div class="logo-area">
-                                <a href="index.html">
+                                <a href="/">
                                     <img class="normal-logo" src="assets/images/logo-star.png" alt="logo">
                                     <img class="sticky-logo" src="assets/images/logo-star.png" alt="logo">
                                 </a>
@@ -501,9 +503,9 @@
             <div class="row y-middle">
                 <div class="col-lg-6 md-mb-50">
                     <div class="widget-img">
-                        <img src="assets/images/about/style3/electrician.jpg" alt="About">
+                        <img src="assets/images/about/style3/electrician.webp" alt="About">
                         <div class="multi-img wow fadeinup">
-                            <img style="width: 250px; height: 200px; border: 8px solid #fff;" src="assets/images/about/style3/fixing-washing.jpg" alt="">
+                            <img style="width: 250px; height: 200px; border: 8px solid #fff;" src="assets/images/about/style3/fixing-washing.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -530,7 +532,7 @@
                                     <div class="counter-right-border"></div>
                                     <div class="count-text">
                                         <div class="count-number">
-                                            <span class="rs-count">552</span>
+                                            <span class="rs-count">100</span>
                                             <span class="prefix">+</span>
                                         </div>
                                         <span class="title">Happy Customers</span>
@@ -541,8 +543,8 @@
                                 <div class="rs-counter-list widget-padding">
                                     <div class="count-text">
                                         <div class="count-number">
-                                            <span class="rs-count">652</span>
-                                            <span class="prefix">k</span>
+                                            <span class="rs-count">53</span>
+                                            <!-- <span class="prefix">k</span> -->
                                         </div>
                                         <span class="title">Completed Cases</span>
                                     </div>
@@ -702,7 +704,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/electrician.jpg" alt="images">
+                            <img src="assets/images/project/style3/electrician.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -715,7 +717,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing1.jpeg" alt="images">
+                            <img src="assets/images/project/style3/washing1.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -728,7 +730,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing2.jpg" alt="images">
+                            <img src="assets/images/project/style3/washing2.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -741,7 +743,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing3.jpg" alt="images">
+                            <img src="assets/images/project/style3/washing3.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -754,7 +756,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item 1 filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing4.jpg" alt="images">
+                            <img src="assets/images/project/style3/washing4.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -767,7 +769,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/refrigerator.jpg" alt="images">
+                            <img src="assets/images/project/style3/refrigerator.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -780,7 +782,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/refrigerator2.jpg" alt="images">
+                            <img src="assets/images/project/style3/refrigerator2.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -793,7 +795,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter3">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/oven.jpg" alt="images">
+                            <img src="assets/images/project/style3/oven.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -806,7 +808,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter4">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/stove.jpg" alt="images">
+                            <img src="assets/images/project/style3/stove.webp" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -874,7 +876,7 @@
                      data-ipad-device="4" data-ipad-device-nav="false" data-ipad-device-dots="false"
                      data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false">
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/marcone-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/marcone-logo.png" title=""
@@ -882,7 +884,7 @@
                         </a>
                     </div>
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/Sears-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/Sears-logo.png" title=""
@@ -890,7 +892,7 @@
                         </a>
                     </div>
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/lg-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/lg-logo.png" title=""
@@ -898,7 +900,7 @@
                         </a>
                     </div>
                     <div class="logo-img">
-                        <a href="#">
+                        <a href="JavaScript:void(0);">
                             <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/samsung-logo.png" title=""
                                  alt="">
                             <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/samsung-logo.png" title=""
@@ -995,511 +997,6 @@
     </section>
     <!-- Contact Section End -->
 
-    <!-- Services Start -->
-    <!-- <div id="rs-services22" class="rs-services services-style6 gray-bg3 pt-120 pb-120 md-pt-80 md-pb-80">
-            <div class="container">
-                <div class="sec-title text-center mb-35 md-mb-25">
-                    <span class="sub-text sub-text5">Latest Services</span>
-                    <h2 class="title pb-20">
-                        Our professional plumbing<br>
-                        services solutions
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-20">
-                        <div class="services-item">
-                            <div class="services-img">
-                                <a href="services-style1.html">
-                                    <img src="assets/images/services/style6/service-1.jpg" alt="Services">
-                                </a>
-                            </div>
-                            <div class="services-content">
-                                <h4 class="title"> <a href="services-style1.html">Bathroom Plumbing</a></h4>
-                                <p class="services-txt"> Nor is there anyone who loves pursues bit desires to obtain
-                                    pain of itself.</p>
-                                <div class="services-btn btn-style3">
-                                    <a class="btn-text" href="services-style1.html">Know More<i
-                                            class="fi fi-rr-arrow-small-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-20">
-                        <div class="services-item">
-                            <div class="services-img">
-                                <a href="services-style1.html">
-                                    <img src="assets/images/services/style6/service-2.jpg" alt="Services">
-                                </a>
-                            </div>
-                            <div class="services-content">
-                                <h4 class="title"> <a href="services-style1.html">Kitchen Plumbing</a></h4>
-                                <p class="services-txt"> Nor is there anyone who loves pursues bit desires to obtain
-                                    pain of itself.</p>
-                                <div class="services-btn btn-style3">
-                                    <a class="btn-text" href="services-style1.html">Know More<i
-                                            class="fi fi-rr-arrow-small-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-20">
-                        <div class="services-item">
-                            <div class="services-img">
-                                <a href="services-style1.html">
-                                    <img src="assets/images/services/style6/service-3.jpg" alt="Services">
-                                </a>
-                            </div>
-                            <div class="services-content">
-                                <h4 class="title"> <a href="services-style1.html">Basement Plumbing</a></h4>
-                                <p class="services-txt"> Nor is there anyone who loves pursues bit desires to obtain
-                                    pain of itself.</p>
-                                <div class="services-btn btn-style3">
-                                    <a class="btn-text" href="services-style1.html">Know More<i
-                                            class="fi fi-rr-arrow-small-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 md-mb-20">
-                        <div class="services-item">
-                            <div class="services-img">
-                                <a href="services-style1.html">
-                                    <img src="assets/images/services/style6/service-4.jpg" alt="Services">
-                                </a>
-                            </div>
-                            <div class="services-content">
-                                <h4 class="title"> <a href="services-style1.html">Drain clogged</a></h4>
-                                <p class="services-txt"> Nor is there anyone who loves pursues bit desires to obtain
-                                    pain of itself.</p>
-                                <div class="services-btn btn-style3">
-                                    <a class="btn-text" href="services-style1.html">Know More<i
-                                            class="fi fi-rr-arrow-small-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 sm-mb-20">
-                        <div class="services-item">
-                            <div class="services-img">
-                                <a href="services-style1.html">
-                                    <img src="assets/images/services/style6/service-5.jpg" alt="Services">
-                                </a>
-                            </div>
-                            <div class="services-content">
-                                <h4 class="title"> <a href="services-style1.html">Water Line Repair</a></h4>
-                                <p class="services-txt"> Nor is there anyone who loves pursues bit desires to obtain
-                                    pain of itself.</p>
-                                <div class="services-btn btn-style3">
-                                    <a class="btn-text" href="services-style1.html">Know More<i
-                                            class="fi fi-rr-arrow-small-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="services-item">
-                            <div class="services-img">
-                                <a href="services-style1.html">
-                                    <img src="assets/images/services/style6/service-6.jpg" alt="Services">
-                                </a>
-                            </div>
-                            <div class="services-content">
-                                <h4 class="title"> <a href="services-style1.html">Sewage Backups</a></h4>
-                                <p class="services-txt"> Nor is there anyone who loves pursues bit desires to obtain
-                                    pain of itself.</p>
-                                <div class="services-btn btn-style3">
-                                    <a class="btn-text" href="services-style1.html">Know More<i
-                                            class="fi fi-rr-arrow-small-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 mt-55 md-mt-35">
-                        <div class="sec-title text-center sm-left">
-                            <p class="view-services">Find Your Best Plumbing Services.<a href="#"><span
-                                        class="btn-text">Find Your Services</span></a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!-- Services End -->
-
-    <!-- Cta Start -->
-    <!-- <div class="rs-cta cta-style1 bg15">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="cta-content md-text-center pt-110 pb-125 md-pt-65 md-pb-65">
-                            <div class="title-heading mb-40">
-                                <span class="sub-text">Emargency Services</span>
-                                <h2 class="title">Emergency services call us</h2>
-                            </div>
-                            <div class="address-wrap">
-                                <div class="address-icon">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <div class="content-txt">
-                                    <a href="#">+0820 318 887</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="cta-img">
-                            <img src="assets/images/cta/plumber-man.png" alt="Images">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!-- Cta End -->
-
-    <!-- Team Section Start -->
-    <!-- <div class="rs-team team-style3 team-modify2 gray-bg3 pt-120 pb-120 md-pt-80 md-pb-80">
-            <div class="container">
-                <div class="sec-title text-center mb-45">
-                    <span class="sub-text sub-text5">Meet our team</span>
-                    <h2 class="title">
-                        Meet our plumber experts
-                    </h2>
-                </div>
-                <div class="rs-carousel owl-carousel" data-loop="true" data-items="4" data-margin="30"
-                    data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
-                    data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
-                    data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false"
-                    data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2"
-                    data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="4"
-                    data-md-device-nav="false" data-md-device-dots="true">
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/style1/tm1.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Xavier Davids</a>
-                                    </h3>
-                                    <span class="team-title">Builder Advisor</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/style1/tm2.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Davis Youn</a>
-                                    </h3>
-                                    <span class="team-title">Architecture</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/style1/tm3.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Thomas Arthur</a>
-                                    </h3>
-                                    <span class="team-title">Foreman</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/style1/tm1.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Leo Harnent Keorn</a>
-                                    </h3>
-                                    <span class="team-title">Construction Worker</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/style1/tm2.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">John William</a>
-                                    </h3>
-                                    <span class="team-title">CEO & Engineer</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/style1/tm3.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Navin Thapa</a>
-                                    </h3>
-                                    <span class="team-title">Project Manager</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/style1/tm1.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Xavier Davids</a>
-                                    </h3>
-                                    <span class="team-title">Builder Advisor</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/tm2.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Davis Youn</a>
-                                    </h3>
-                                    <span class="team-title">Architecture</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-item-wrap">
-                        <div class="team-inner-wrap">
-                            <div class="image-wrap">
-                                <a href="team-single.html"><img src="assets/images/team/tm3.jpg" alt="Team"></a>
-                            </div>
-                            <div class="team-content">
-                                <div class="team-info">
-                                    <h3 class="team-name">
-                                        <a href="team-single.html">Thomas Arthur</a>
-                                    </h3>
-                                    <span class="team-title">Foreman</span>
-                                </div>
-                                <div class="plus-team">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                    <i class="fi fi-rr-share share-i"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!-- Team Section End -->
-
-    <!-- Blog Section Start -->
-    <!-- <div id="rs-blog" class="rs-blog blog-main-home blog-modify5 pt-120 pb-120 md-pt-80 md-pb-80">
-            <div class="container">
-                <div class="sec-title text-center mb-45">
-                    <span class="sub-text sub-text5">News & Blog</span>
-                    <h2 class="title">
-                        Our latest news post<br>
-                        and articles
-                    </h2>
-                </div>
-                <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30"
-                    data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
-                    data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
-                    data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false"
-                    data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false"
-                    data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false"
-                    data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
-                    <div class="blog-item">
-                        <div class="image-wrap">
-                            <a href="blog-single.html"><img src="assets/images/blog/style1/1.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <ul class="blog-meta">
-                                <li class="date"><i class="fa fa-calendar-check-o"></i>26 April 2022</li>
-                                <li class="admin"><i class="fa fa-user-o"></i>Admin</li>
-                            </ul>
-                            <h3 class="blog-title"><a href="blog-single.html">We really appreciate content about the
-                                    construction</a></h3>
-                            <div class="blog-button blog-btn5"><a href="blog-single.html">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-wrap">
-                            <a href="blog-single.html"><img src="assets/images/blog/style1/2.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <ul class="blog-meta">
-                                <li class="date"><i class="fa fa-calendar-check-o"></i>26 April 2022</li>
-                                <li class="admin"><i class="fa fa-user-o"></i>Admin</li>
-                            </ul>
-                            <h3 class="blog-title"><a href="blog-single.html">Best practices construction law on
-                                    construction</a></h3>
-                            <div class="blog-button blog-btn5"><a href="blog-single.html">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-wrap">
-                            <a href="blog-single.html"><img src="assets/images/blog/style1/3.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <ul class="blog-meta">
-                                <li class="date"><i class="fa fa-calendar-check-o"></i>26 April 2022</li>
-                                <li class="admin"><i class="fa fa-user-o"></i>Admin</li>
-                            </ul>
-                            <h3 class="blog-title"><a href="blog-single.html">Although many people may overlook the
-                                    need</a></h3>
-                            <div class="blog-button blog-btn5"><a href="blog-single.html">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-wrap">
-                            <a href="blog-single.html"><img src="assets/images/blog/style1/4.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <ul class="blog-meta">
-                                <li class="date"><i class="fa fa-calendar-check-o"></i>26 April 2022</li>
-                                <li class="admin"><i class="fa fa-user-o"></i>Admin</li>
-                            </ul>
-                            <h3 class="blog-title"><a href="blog-single.html">Construction executive holds a very
-                                    special place</a></h3>
-                            <div class="blog-button blog-btn5"><a href="blog-single.html">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-wrap">
-                            <a href="blog-single.html"><img src="assets/images/blog/style1/5.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <ul class="blog-meta">
-                                <li class="date"><i class="fa fa-calendar-check-o"></i>26 April 2022</li>
-                                <li class="admin"><i class="fa fa-user-o"></i>Admin</li>
-                            </ul>
-                            <h3 class="blog-title"><a href="blog-single.html">This is another massive sites with a ton
-                                    of information</a></h3>
-                            <div class="blog-button blog-btn5"><a href="blog-single.html">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-wrap">
-                            <a href="blog-single.html"><img src="assets/images/blog/style1/6.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-content">
-                            <ul class="blog-meta">
-                                <li class="date"><i class="fa fa-calendar-check-o"></i>26 April 2022</li>
-                                <li class="admin"><i class="fa fa-user-o"></i>Admin</li>
-                            </ul>
-                            <h3 class="blog-title"><a href="blog-single.html">The construction business the owner site
-                                    is jam-packed</a></h3>
-                            <div class="blog-button blog-btn5"><a href="blog-single.html">Read More</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-    <!-- Blog Section End -->
-
-
-
 </div>
 <!-- Main content End -->
 
@@ -1513,18 +1010,14 @@
             <div class="row">
                 <div class="col-lg-3 pr-20 md-pr-15 md-mb-20">
                     <div class="footer-logo mb-51 md-mb-30">
-                        <a href="index.html"><img src="assets/images/logo-star.png" alt=""></a>
+                        <a href="/"><img src="assets/images/logo-star.png" alt=""></a>
                     </div>
                     <div class="textwidget">
-                        <p class="pb-20">Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod
-                            tempor in cididunt ut labore.</p>
-                        <p class="pb-25"><strong>Opening Hours</strong> : Monday – Sat: 9am to 7pm</p>
+                        <p class="pb-20">Welcome to our appliance service company! We offer a wide range of repair services for all types of appliances.</p>
+                        <p class="pb-25"><strong>Opening Hours</strong> : Mon-Fri – Sat: 9.00am to 7.00pm</p>
                     </div>
                     <ul class="footer-social md-mb-30">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://wa.me/12014568806"><i class="fa fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 md-mb-10">
@@ -1533,9 +1026,11 @@
                         <li>
                             <i class="fi fi-rr-map-marker-home"></i>
                             <div class="desc">
-                                08852, New Jersey, USA
-                                <br>
-                                2110 Sugar Maple Ct
+                                                <a href="https://goo.gl/maps/JCiuQqo48NWVrNCc7">
+													08852, New Jersey, USA
+													<br>
+													2110 Sugar Maple Ct
+												</a>
                             </div>
                         </li>
                         <li>
@@ -1558,7 +1053,7 @@
                 <div class="col-lg-3 md-mb-10">
                     <h3 class="footer-title">Site Map</h3>
                     <ul class="site-map">
-                        <li><a href="#rs-header">Home</a></li>
+                        <li><a href="#rs-banner">Home</a></li>
                         <li><a href="#rs-about">About</a></li>
                         <li><a href="#rs-services">Services</a></li>
                         <li><a href="#rs-project">Projects</a></li>
@@ -1573,6 +1068,7 @@
 {{--                        <input type="email" name="email" placeholder="Your Email Address" required="">--}}
 {{--                        <input type="submit" value="Subscribe Now">--}}
 {{--                    </p>--}}
+
                 </div>
             </div>
         </div>

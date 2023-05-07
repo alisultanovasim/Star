@@ -446,10 +446,9 @@
   //canvas menu
   var navexpander = $("#nav-expander");
   if (navexpander.length) {
-    $("#nav-expander, #nav-close, #nav-close2, .offwrap").on(
+    $("#nav-expander, #nav-close, #nav-close2, .offwrap, .full-width-header .mobile-navbar-menu .nav-menu li a").on(
       "click",
-      function (e) {
-        e.preventDefault();
+      function () {
         $("body").toggleClass("nav-expanded");
       }
     );
