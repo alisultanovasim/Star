@@ -387,42 +387,45 @@
                             <h3 class="title">Any equipment you have is it malfunctioning?</h3>
                         </div>
                         <div class="contact-wrap">
-                            <div id="form-messages">
-                                @if(session()->has('message_success'))
+{{--                            <div id="form-messages">--}}
+                                @if(session()->has('success'))
                                     <div class="alert alert-success">
-                                        {{ session()->get('message_success') }}
+                                        {{ session()->get('success') }}
                                     </div>
                                 @endif
-                                @if ($errors->any())
-                                    <div class="alert alert-danger">
-                                        <ul>
-                                            @foreach ($errors->all() as $error)
-                                                <li>{{ $error }}</li>
-                                            @endforeach
-                                        </ul>
-                                    </div>
-                                @endif
+{{--                                @if ($errors->any())--}}
+{{--                                    <div class="alert alert-danger">--}}
+{{--                                        <ul>--}}
+{{--                                            @foreach ($errors->all() as $error)--}}
+{{--                                                <li>{{ $error }}</li>--}}
+{{--                                            @endforeach--}}
+{{--                                        </ul>--}}
+{{--                                    </div>--}}
+{{--                                @endif--}}
 
-                            </div>
-                            <form id="contact-form" method="post" action="{{route('message')}}">
-                                @csrf
-                                <fieldset>
+{{--                            </div>--}}
+                            <form id="message-form" method="post" action="{{route('message')}}">
+                                    @csrf
                                     <div class="row">
                                         <div class="col-lg-12 mb-25">
                                             <input class="from-control" type="text" id="name" name="name"
                                                    placeholder="Name" required="">
+                                            @error('name') <span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                         <div class="col-lg-12 mb-25">
                                             <input class="from-control" type="text" id="email" name="email"
                                                    placeholder="E-Mail" required="">
+                                            @error('email') <span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                         <div class="col-lg-12 mb-25">
                                             <input class="from-control" type="text" id="phone" name="phone"
                                                    placeholder="Phone Number" required="">
+                                            @error('phone') <span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                         <div class="col-lg-12">
 												<textarea class="from-control" id="message" name="message"
                                                           placeholder="Your Message Here" required=""></textarea>
+                                            @error('message') <span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                     </div>
                                     <div class="form-button">
@@ -430,7 +433,6 @@
                                             <input class="submit" type="submit" value="Submit Now">
                                         </p>
                                     </div>
-                                </fieldset>
                             </form>
                         </div>
                     </div>
@@ -936,25 +938,27 @@
                                     Book a call
                                 </h2>
                             </div>
-                            <div id="form-messages"></div>
-                            <form id="contact-form" method="post" action="{{route('booking')}}">
+                            <form id="ctt-form" method="post" action="{{route('booking')}}">
                                 @csrf
                                 <fieldset>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
                                             <input class="from-control" type="text" id="names" name="names"
                                                    placeholder="Your Name">
+                                            @error('names')<span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
                                             <input class="from-control" type="email" id="emails" name="emails"
                                                    placeholder="Email">
+                                            @error('emails')<span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
                                             <input class="from-control" type="text" id="phones" name="phones"
                                                    placeholder="Phone" required="">
+                                            @error('phones')<span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                            <select class="from-control" name="service" id="">
+                                            <select class="from-control" name="service" id="service-select">
                                                 <option>Select the service</option>
                                                 <option value="Washing machine">Washing machine
                                                 </option>
@@ -967,15 +971,17 @@
                                                 <option value="Stove">Stove</option>
                                                 <option value="Oven">Oven</option>
                                             </select>
+                                            @error('service')<span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                         <div class="col-lg-12 mb-30">
 												<textarea class="from-control" id="message" name="messages"
                                                           placeholder="Message Here" required=""></textarea>
+                                            @error('messages')<span class="text-danger">{{$message}}</span>@enderror
                                         </div>
                                     </div>
                                     <div class="btn-part">
                                         <div class="form-group mb-0">
-                                            <input class="readon more submit submit-blue" type="submit"
+                                            <input class="readon more submit submit-blue booking-btn" type="submit"
                                                    value="Submit Now">
                                         </div>
                                     </div>
@@ -1563,10 +1569,10 @@
                 <div class="col-lg-3">
                     <h3 class="footer-title">Newsletter</h3>
                     <p class="widget-desc">Tetur adipiscing elit, sed do eiusmod tempor in cididunt ut labore.</p>
-                    <p>
-                        <input type="email" name="email" placeholder="Your Email Address" required="">
-                        <input type="submit" value="Subscribe Now">
-                    </p>
+{{--                    <p>--}}
+{{--                        <input type="email" name="email" placeholder="Your Email Address" required="">--}}
+{{--                        <input type="submit" value="Subscribe Now">--}}
+{{--                    </p>--}}
                 </div>
             </div>
         </div>

@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Book;
-use App\Models\Message;
+
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
 
 class BookingController extends Controller
 {
@@ -15,47 +13,75 @@ class BookingController extends Controller
     }
     public function book(Request $request)
     {
-         Validator::make($request->all(), [
+         $this->validate($request, [
             'names' => 'required|string|max:255',
             'emails' => 'required|email|max:255',
             'phones' => 'required|string|max:255',
             'messages' => 'required|string',
-            'service' => 'required|string|max:255',
+            'service' => 'required|string|max:55',
         ]);
-        $book = new Book();
-        $book->name = $request->names;
-        $book->email = $request->emails;
-        $book->phone = $request->phones;
-        $book->message = $request->messages;
-        $book->service = $request->service;
 
-        $book->save();
 
-        return redirect()->back()->with('book_success', 'Your message has been sent successfully!');
+        if ($this->isOnline()){
+            $details = [
+                'recipient'=>"e.gadimli@in4tech.az",
+                'name' => $request->names,
+                'email' => $request->emails,
+                'subject' => 'Booking message',
+                'service' => $request->serice,
+                'phone' => $request->phones,
+                'body' => $request->messages,
+            ];
+            \Mail::send('email-template',$details,function ($message) use ($details){
+                $message->to($details['recipient'])
+                    ->from($details['email'],$details['name'],$details['phone'],$details['service'])
+                    ->subject($details['subject']);
+            });
+            return redirect()->back()->with('success','Email sent');
+        }
+        else{
+            return redirect()->back()->withInput()->with('error','Check your internet connection');
+        }
 
     }
 
     public function message(Request $request)
     {
-        $validator = Validator::make($request->all(), [
+        $this->validate($request,[
             'name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'phone' => 'required|string|max:255',
             'message' => 'required|string',
         ]);
 
-        if ($validator->fails()) {
-            return redirect()->back()->withErrors($validator)->withInput();
+        if ($this->isOnline()){
+            $details = [
+                'recipient'=>"e.gadimli@in4tech.az",
+                'name' => $request->name,
+                'email' => $request->email,
+                'subject' => 'Message',
+                'phone' => $request->phone,
+                'body' => $request->message,
+            ];
+            \Mail::send('email-template',$details,function ($message) use ($details){
+                $message->to($details['recipient'])
+                    ->from($details['email'],$details['name'],$details['phone'])
+                    ->subject($details['subject']);
+            });
+            return redirect()->back()->with('success','Email sent');
         }
+        else{
+            return redirect()->back()->withInput()->with('error','Check your internet connection');
+        }
+    }
 
-        $message = new Message();
-        $message->name = $request->name;
-        $message->email = $request->email;
-        $message->phone = $request->phone;
-        $message->message = $request->message;
-
-        $message->save();
-
-        return redirect()->back()->with('message_success', 'Your message has been sent successfully!');
+    public function isOnline($site = "https://youtube.com/")
+    {
+        if (@fopen($site,"r")){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
