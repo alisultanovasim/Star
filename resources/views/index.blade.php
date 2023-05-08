@@ -408,10 +408,6 @@
 {{--                            </div>--}}
                             <form id="message-form" method="post" action="{{route('message')}}">
                                     @csrf
-                            </div>
-                            <form method="post" action="{{route('message')}}">
-                                @csrf
-                                <fieldset>
                                     <div class="row">
                                         <div class="col-lg-12 mb-25">
                                             <input class="from-control" type="text" id="name" name="name"
@@ -944,9 +940,8 @@
                                     Book a call
                                 </h2>
                             </div>
+
                             <form id="ctt-form" method="post" action="{{route('booking')}}">
-                            <div id="form-messages"></div>
-                            <form method="post" action="{{route('booking')}}">
                                 @csrf
                                 <fieldset>
                                     <div class="row">
@@ -1067,7 +1062,6 @@
                         <li><a href="#rs-contact">Contact</a></li>
                     </ul>
                 </div>
-
                 <!-- <div class="col-lg-3">
                     <h3 class="footer-title">Newsletter</h3>
                     <p class="widget-desc">Subscribe to our newsletter</p>
