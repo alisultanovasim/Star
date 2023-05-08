@@ -34,10 +34,10 @@ class BookingController extends Controller
             ];
             \Mail::send('email-template',$details,function ($message) use ($details){
                 $message->to($details['recipient'])
-                    ->from($details['email'],$details['name'],$details['phone'],$details['service'])
+                    ->from("a.alisultanoff@in4tech.az",$details['name'],$details['phone'],$details['service'])
                     ->subject($details['subject']);
             });
-            return redirect()->back()->with('success','Email sent');
+            return redirect()->back()->with('book_success','Email sent');
         }
         else{
             return redirect()->back()->withInput()->with('error','Check your internet connection');
@@ -65,7 +65,7 @@ class BookingController extends Controller
             ];
             \Mail::send('email-template',$details,function ($message) use ($details){
                 $message->to($details['recipient'])
-                    ->from($details['email'],$details['name'],$details['phone'])
+                    ->from("a.alisultanoff@in4tech.az",$details['name'],$details['phone'])
                     ->subject($details['subject']);
             });
             return redirect()->back()->with('success','Email sent');
