@@ -404,17 +404,13 @@
 {{--                                        </ul>--}}
 {{--                                    </div>--}}
 {{--                                @endif--}}
-
-<<<<<<< HEAD
 {{--                            </div>--}}
                             <form id="message-form" method="post" action="{{route('message')}}">
                                     @csrf
-=======
                             </div>
                             <form method="post" action="{{route('message')}}">
                                 @csrf
                                 <fieldset>
->>>>>>> 8032a21 (sadsa)
                                     <div class="row">
                                         <div class="col-lg-12 mb-25">
                                             <input class="from-control" type="text" id="name" name="name"
@@ -947,12 +943,9 @@
                                     Book a call
                                 </h2>
                             </div>
-<<<<<<< HEAD
                             <form id="ctt-form" method="post" action="{{route('booking')}}">
-=======
                             <div id="form-messages"></div>
                             <form method="post" action="{{route('booking')}}">
->>>>>>> 8032a21 (sadsa)
                                 @csrf
                                 <fieldset>
                                     <div class="row">
@@ -1073,9 +1066,7 @@
                         <li><a href="#rs-contact">Contact</a></li>
                     </ul>
                 </div>
-<<<<<<< HEAD
 
-=======
                 <!-- <div class="col-lg-3">
                     <h3 class="footer-title">Newsletter</h3>
                     <p class="widget-desc">Subscribe to our newsletter</p>
@@ -1084,7 +1075,6 @@
                         <input type="submit" value="Subscribe Now">
                     </p>
                 </div> -->
->>>>>>> 8032a21 (sadsa)
             </div>
         </div>
     </div>
