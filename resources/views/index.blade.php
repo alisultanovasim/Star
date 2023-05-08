@@ -4,7 +4,7 @@
 <head>
     <!-- meta tag -->
     <meta charset="utf-8">
-    <title>Star appliance services</title>
+    <title>Star appliance services.</title>
     <meta name="description" content="">
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -404,6 +404,7 @@
 {{--                                        </ul>--}}
 {{--                                    </div>--}}
 {{--                                @endif--}}
+
 {{--                            </div>--}}
                             <form id="message-form" method="post" action="{{route('message')}}">
                                     @csrf
