@@ -210,86 +210,86 @@ ul {
   color: #ffffff;
 }
 .bg1 {
-  background: url(../images/bg/about-bg.jpg);
+  background: url(../images/bg/about-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg2 {
-  background: url(../images/bg/counter-bg.jpg);
+  background: url(../images/bg/counter-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg3 {
-  background: url(../images/bg/contact-bg.jpg);
+  background: url(../images/bg/contact-bg.webp);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg4 {
   background-color: #010d14;
-  background: url(../images/bg/cta-bg.jpg);
+  background: url(../images/bg/cta-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg5 {
   background-color: #010d14 !important;
-  background: url(../images/bg/double-sec-bg.png) !important;
+  background: url(../images/bg/double-sec-bg.webp) !important;
   background-position: bottom center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 .bg6 {
-  background: url(../images/bg/counter-bg2.jpg);
+  background: url(../images/bg/counter-bg2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg7 {
   background-color: #010d14;
-  background: url(../images/bg/double-sec-bg.png);
+  background: url(../images/bg/double-sec-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg8 {
-  background: url(../images/bg/about-bg2.jpg);
+  background: url(../images/bg/about-bg2.webp);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg9 {
   background-color: #010d14;
-  background: url(../images/bg/cta-bg2.jpg);
+  background: url(../images/bg/cta-bg2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg10 {
   background-color: #000000;
-  background: url(../images/bg/service-bg.jpg);
+  background: url(../images/bg/service-bg.webp);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg11 {
-  background: url(../images/bg/team-bg.jpg);
+  background: url(../images/bg/team-bg.webp);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg12 {
   background-color: #010d14;
-  background: url(../images/bg/cta-bg3.jpg);
+  background: url(../images/bg/cta-bg3.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg13 {
   background-color: #051727;
-  background: url(../images/bg/service-bg2.jpg);
+  background: url(../images/bg/service-bg2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,11 +297,11 @@ ul {
 }
 .bg14 {
   background-color: #031321;
-  background: url(../images/bg/testi-bg.jpg);
+  background: url(../images/bg/testi-bg.webp);
   background-repeat: no-repeat;
 }
 .bg15 {
-  background: url(../images/bg/cta-bg4.jpg);
+  background: url(../images/bg/cta-bg4.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -314,56 +314,56 @@ ul {
 }
 .bg17 {
   background-color: #010d14;
-  background: url(../images/bg/cta-bg6.jpg);
+  background: url(../images/bg/cta-bg6.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg18 {
-  background: url(../images/bg/cta-bg7.jpg);
+  background: url(../images/bg/cta-bg7.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg19 {
   background-color: #797979;
-  background: url(../images/bg/count-bg.jpg);
+  background: url(../images/bg/count-bg.webp);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg20 {
   background-color: #f8f8f8;
-  background: url(../images/bg/testi-bg2.jpg);
+  background: url(../images/bg/testi-bg2.webp);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg21 {
   background-color: #000000;
-  background: url(../images/bg/contact-bg3.jpg);
+  background: url(../images/bg/contact-bg3.webp);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg22 {
   background-color: #010d14;
-  background: url(../images/bg/about-single-bg.jpg);
+  background: url(../images/bg/about-single-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg23 {
-  background: url(../images/bg/konstruk-bg.jpg);
+  background: url(../images/bg/konstruk-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg24 {
-  background: url(../images/bg/team-single-bg.jpg);
+  background: url(../images/bg/team-single-bg.webp);
   background-repeat: no-repeat;
 }
 .offwrap {
-  cursor: url(../images/close.png), auto;
+  cursor: url(../images/close.webp), auto;
   width: 100%;
   left: 100%;
   transition: all 0.8s ease-out 0s;
@@ -5219,22 +5219,22 @@ body .search-modal .close:hover {
   color: #ffb703;
 }
 .rs-breadcrumbs.img1 {
-  background: url(../images/breadcrumbs/inr-1.jpg);
+  background: url(../images/breadcrumbs/inr-1.webp);
 }
 .rs-breadcrumbs.img2 {
-  background: url(../images/breadcrumbs/inr-2.jpg);
+  background: url(../images/breadcrumbs/inr-2.webp);
 }
 .rs-breadcrumbs.img3 {
-  background: url(../images/breadcrumbs/inr-3.jpg);
+  background: url(../images/breadcrumbs/inr-3.webp);
 }
 .rs-breadcrumbs.img4 {
-  background: url(../images/breadcrumbs/inr-4.jpg);
+  background: url(../images/breadcrumbs/inr-4.webp);
 }
 .rs-breadcrumbs.img5 {
-  background: url(../images/breadcrumbs/inr-5.jpg);
+  background: url(../images/breadcrumbs/inr-5.webp);
 }
 .rs-breadcrumbs.img6 {
-  background: url(../images/breadcrumbs/inr-6.jpg);
+  background: url(../images/breadcrumbs/inr-6.webp);
 }
 /* ------------------------------------
 	07. Banner Section CSS
@@ -5252,7 +5252,7 @@ body .search-modal .close:hover {
 .rs-banner.banner-style1 {
   z-index: 1;
   position: relative;
-  background: url(../images/banner/appliance-bg.jpg);
+  background: url(../images/banner/appliance-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5917,7 +5917,7 @@ body .search-modal .close:hover {
   border-color: #ffb703;
 }
 .rs-slider.rs-slider-style8 {
-  background: url(../images/slider/style2/slide-bg.jpg);
+  background: url(../images/slider/style2/slide-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -6059,7 +6059,7 @@ body .search-modal .close:hover {
 	09. Choose Section CSS
 ---------------------------------------*/
 .rs-choose.choose-style1 .video-item {
-  background-image: url(../images/video/video1g1.png);
+  background-image: url(../images/video/video1g1.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6181,7 +6181,7 @@ body .search-modal .close:hover {
   padding: 115px 130px 100px;
 }
 .rs-choose.choose-style2 .choose-img {
-  background-image: url(../images/choose/benefit/skill-blog.jpg);
+  background-image: url(../images/choose/benefit/skill-blog.webp);
   background-position: top center;
   background-size: cover;
 }
@@ -6259,7 +6259,7 @@ body .search-modal .close:hover {
   transform: scale(1.1);
 }
 .rs-choose.choose-style3 .video-item {
-  background-image: url(../images/video/video-image2.jpg);
+  background-image: url(../images/video/video-image2.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6267,7 +6267,7 @@ body .search-modal .close:hover {
   padding: 295px 0px 295px 0px;
 }
 .rs-choose.choose-style3 .contact-bd {
-  background-image: url(../images/bg/contact-bd.jpg);
+  background-image: url(../images/bg/contact-bd.webp);
   background-repeat: no-repeat;
   background-position: top left;
   background-size: cover;
@@ -6335,7 +6335,7 @@ body .search-modal .close:hover {
   margin: 0;
 }
 .rs-choose.choose-style4 .video-item {
-  background-image: url(../images/video/video-bg-5.jpg);
+  background-image: url(../images/video/video-bg-5.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6358,12 +6358,12 @@ body .search-modal .close:hover {
   background: #e88e2e;
 }
 .rs-choose.choose-style4.choose-modify1 .video-item {
-  background-image: url(../images/video/video-image4.jpg);
+  background-image: url(../images/video/video-image4.webp);
   padding: 280px 0px 280px 0px;
   border-radius: 4px 4px 4px 4px;
 }
 .rs-choose.choose-style5 .sec-image {
-  background-image: url(../images/choose/style3/sec-image.jpg);
+  background-image: url(../images/choose/style3/sec-image.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6812,7 +6812,7 @@ body .search-modal .close:hover {
 	12. Contact Section CSS
 ---------------------------------------*/
 .rs-contact.contact-style1 .contact-right-img {
-  background-image: url(../images/contact/con-right.png);
+  background-image: url(../images/contact/con-right.webp);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7257,7 +7257,7 @@ body .search-modal .close:hover {
   opacity: 0.68;
 }
 .rs-contact.contact-style3 .contact-img {
-  background-image: url(../images/contact/contact-5.jpg);
+  background-image: url(../images/contact/contact-5.webp);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -7467,7 +7467,7 @@ body .search-modal .close:hover {
   opacity: 0.45;
 }
 .rs-contact.contact-style6 .contact-project {
-  background: url(../images/contact/pro-con2.jpg);
+  background: url(../images/contact/pro-con2.webp);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7793,7 +7793,7 @@ body .search-modal .close:hover {
   border-radius: 2px 2px 2px 2px;
 }
 .rs-process.process-style2 .rs-addon-item {
-  background-image: url(../images/process/style2/1.jpg);
+  background-image: url(../images/process/style2/1.webp);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7834,13 +7834,13 @@ body .search-modal .close:hover {
   color: #ba9071;
 }
 .rs-process.process-style2 .rs-addon-item.Public-bg {
-  background-image: url(../images/process/style2/2.jpg);
+  background-image: url(../images/process/style2/2.webp);
 }
 .rs-process.process-style2 .rs-addon-item.commercial-bg {
-  background-image: url(../images/process/style2/3.jpg);
+  background-image: url(../images/process/style2/3.webp);
 }
 .rs-process.process-style3 .process-bg {
-  background-image: url(../images/process/style3/icons/steps-bg.png);
+  background-image: url(../images/process/style3/icons/steps-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 1050px auto;
@@ -7931,7 +7931,7 @@ body .search-modal .close:hover {
 	17. Project Section CSS
 ---------------------------------------*/
 .rs-project.portfolio-image .project-img {
-  background-image: url(../images/project/portfolio.jpg);
+  background-image: url(../images/project/portfolio.webp);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: cover;
@@ -9047,7 +9047,7 @@ body .search-modal .close:hover {
   color: #fff;
 }
 .rs-skillbar.skillbar-style1 .video-img {
-  background-image: url(../images/video/video-image5.jpg);
+  background-image: url(../images/video/video-image5.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9493,7 +9493,7 @@ body .search-modal .close:hover {
 .rs-services.services-style7 .services-item {
   position: relative;
   background-color: #183650;
-  background-image: url(../images/services/style7/img/1.jpg);
+  background-image: url(../images/services/style7/img/1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 60px 20px 60px 50px;
@@ -9551,10 +9551,10 @@ body .search-modal .close:hover {
   margin: 0;
 }
 .rs-services.services-style7 .services-item.ser-bg2 {
-  background-image: url(../images/services/style7/img/2.jpg);
+  background-image: url(../images/services/style7/img/2.webp);
 }
 .rs-services.services-style7 .services-item.ser-bg3 {
-  background-image: url(../images/services/style7/img/3.jpg);
+  background-image: url(../images/services/style7/img/3.webp);
 }
 .rs-services.services-style8 .services-item {
   display: flex;
@@ -9784,7 +9784,7 @@ body .search-modal .close:hover {
   text-align: center;
 }
 .rs-services-single .services-add .services-overlay {
-  background-image: url(../images/services/services-single/ser2.jpg);
+  background-image: url(../images/services/services-single/ser2.webp);
   border-radius: 80px 0px 80px 0px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -9992,7 +9992,7 @@ body .search-modal .close:hover {
   padding: 30px 30px 55px 30px;
 }
 .rs-faq.faq-style1 .faq-images {
-  background-image: url(../images/choose/benefit/tabs-images.png);
+  background-image: url(../images/choose/benefit/tabs-images.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11420,7 +11420,7 @@ body .search-modal .close:hover {
 }
 .rs-partner.partner-main-home.partner-modify4 {
   position: relative;
-  background-image: url(../images/bg/partner-bg.jpg);
+  background-image: url(../images/bg/partner-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11474,7 +11474,7 @@ body .search-modal .close:hover {
 }
 .rs-partner.partner-main-home.partner-modify7 {
   background-color: #eff3fa;
-  background-image: url(../images/bg/cta-bg8.jpg);
+  background-image: url(../images/bg/cta-bg8.webp);
   background-repeat: no-repeat;
 }
 .rs-partner.partner-main-home.partner-modify7 .partner-content-widget {
@@ -11488,7 +11488,7 @@ body .search-modal .close:hover {
   padding: 0px 55px;
 }
 .rs-partner.partner-main-home.partner-modify8 {
-  background-image: url(../images/bg/cta-bg9.jpg);
+  background-image: url(../images/bg/cta-bg9.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12981,7 +12981,7 @@ body .search-modal .close:hover {
 }
 .rs-testimonial.testimonial-style8 .testi-item .testi-wrap {
   background-color: #e8eaee;
-  background-image: url(../images/bg/konstruk-bg.jpg);
+  background-image: url(../images/bg/konstruk-bg.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13505,7 +13505,7 @@ body .search-modal .close:hover {
 	29. Careers Single Section CSS
 ----------------------------------------*/
 .rs-careers-single .career-inner-section .career-wrap {
-  background-image: url(../images/bg/cta-bg2.jpg);
+  background-image: url(../images/bg/cta-bg2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13579,7 +13579,7 @@ body .search-modal .close:hover {
   text-align: center;
 }
 .rs-careers-single .services-add .services-overlay {
-  background-image: url(../images/blog/style1/3.jpg);
+  background-image: url(../images/blog/style1/3.webp);
   border-radius: 80px 0px 80px 0px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -13855,7 +13855,7 @@ body .search-modal .close:hover {
 	32. Footer Section CSS
 ------------------------------------*/
 .rs-footer.footer-main-home {
-  background-image: url(../images/bg/footer-bg.jpg);
+  background-image: url(../images/bg/footer-bg.webp);
   background-size: cover;
 }
 .rs-footer.footer-main-home .footer-top {
@@ -14093,7 +14093,7 @@ body .search-modal .close:hover {
   background: #eb003d;
 }
 .rs-footer.footer-main-home.footer-style2 {
-  background-image: url(../images/bg/footer-bg2.jpg);
+  background-image: url(../images/bg/footer-bg2.webp);
 }
 .rs-footer.footer-main-home.footer-style2
   .footer-bottom
@@ -14140,7 +14140,7 @@ body .search-modal .close:hover {
   background: #e8271e;
 }
 .rs-footer.footer-main-home.footer-style3 {
-  background-image: url(../images/bg/footer-bg3.jpg);
+  background-image: url(../images/bg/footer-bg3.webp);
 }
 .rs-footer.footer-main-home.footer-style3
   .footer-bottom
@@ -14187,7 +14187,7 @@ body .search-modal .close:hover {
   background: #108c98;
 }
 .rs-footer.footer-main-home.footer-style4 {
-  background-image: url(../images/bg/footer-bg4.jpg);
+  background-image: url(../images/bg/footer-bg4.webp);
 }
 .rs-footer.footer-main-home.footer-style4
   .footer-bottom
@@ -14234,7 +14234,7 @@ body .search-modal .close:hover {
   background: #21c0f5;
 }
 .rs-footer.footer-main-home.footer-style5 {
-  background-image: url(../images/bg/footer-bg4.jpg);
+  background-image: url(../images/bg/footer-bg4.webp);
 }
 .rs-footer.footer-main-home.footer-style5
   .footer-bottom
@@ -14281,7 +14281,7 @@ body .search-modal .close:hover {
   background: #e88e2e;
 }
 .rs-footer.footer-main-home.footer-style6 {
-  background-image: url(../images/bg/footer-bg4.jpg);
+  background-image: url(../images/bg/footer-bg4.webp);
 }
 .rs-footer.footer-main-home.footer-style6
   .footer-bottom
@@ -14328,7 +14328,7 @@ body .search-modal .close:hover {
   background: #ba9071;
 }
 .rs-footer.footer-main-home.footer-style7 {
-  background-image: url(../images/bg/footer-bg5.jpg);
+  background-image: url(../images/bg/footer-bg5.webp);
 }
 .rs-footer.footer-main-home.footer-style7
   .footer-bottom
