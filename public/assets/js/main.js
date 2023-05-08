@@ -422,7 +422,7 @@
   // Counter Up
   var counter = $(".rs-count");
   if (counter.length) {
-    $(".rs-count").counterUp({ time: 3000 });
+    $(".rs-count").counterUp({ time: 2000 });
   }
 
   // scrollTop init

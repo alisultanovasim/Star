@@ -503,9 +503,9 @@
             <div class="row y-middle">
                 <div class="col-lg-6 md-mb-50">
                     <div class="widget-img">
-                        <img src="assets/images/about/style3/electrician.webp" alt="About">
+                        <img src="assets/images/about/style3/electrician.jpg" alt="About">
                         <div class="multi-img wow fadeinup">
-                            <img style="width: 250px; height: 200px; border: 8px solid #fff;" src="assets/images/about/style3/fixing-washing.webp" alt="">
+                            <img style="width: 250px; height: 200px; border: 8px solid #fff;" src="assets/images/about/style3/fixing-washing.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -532,7 +532,7 @@
                                     <div class="counter-right-border"></div>
                                     <div class="count-text">
                                         <div class="count-number">
-                                            <span class="rs-count">100</span>
+                                            <span class="rs-count">1461</span>
                                             <span class="prefix">+</span>
                                         </div>
                                         <span class="title">Happy Customers</span>
@@ -543,7 +543,7 @@
                                 <div class="rs-counter-list widget-padding">
                                     <div class="count-text">
                                         <div class="count-number">
-                                            <span class="rs-count">53</span>
+                                            <span class="rs-count">1734</span>
                                             <!-- <span class="prefix">k</span> -->
                                         </div>
                                         <span class="title">Completed Cases</span>
@@ -704,7 +704,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/electrician.webp" alt="images">
+                            <img src="assets/images/project/style3/electrician.jpg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -717,7 +717,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing1.webp" alt="images">
+                            <img src="assets/images/project/style3/washing1.jpeg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -730,7 +730,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing2.webp" alt="images">
+                            <img src="assets/images/project/style3/washing2.jpg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -743,7 +743,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing3.webp" alt="images">
+                            <img src="assets/images/project/style3/washing3.jpg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -756,7 +756,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item 1 filter1">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/washing4.webp" alt="images">
+                            <img src="assets/images/project/style3/washing4.jpg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -769,7 +769,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/refrigerator.webp" alt="images">
+                            <img src="assets/images/project/style3/refrigerator.jpg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -782,7 +782,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/refrigerator2.webp" alt="images">
+                            <img src="assets/images/project/style3/refrigerator2.jpg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
@@ -795,7 +795,7 @@
                 <div class="col-lg-4 col-md-6 mb-30 grid-item filter3">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/images/project/style3/oven.webp" alt="images">
+                            <img src="assets/images/project/style3/oven.jpg" alt="images">
                         </div>
                         <div class="project-content">
                             <div class="project-inner">
