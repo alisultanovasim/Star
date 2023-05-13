@@ -11,7 +11,6 @@ class BookingController extends Controller
     {
         return view('index');
     }
-
     public function message(Request $request)
     {
         $this->validate($request,[
@@ -30,9 +29,10 @@ class BookingController extends Controller
                 'phone' => $request->phone,
                 'body' => $request->message,
             ];
+
             \Mail::send('email-template',$details,function ($message) use ($details){
                 $message->to($details['recipient'])
-                    ->from("no-reply@starapplianceservices.com",$details['name'],$details['phone'])
+                    ->from('no-reply@starapplianceservices.com',$details['name'],$details['phone'])
                     ->subject($details['subject']);
             });
             return redirect()->back()->with('success','Email sent');
@@ -51,7 +51,7 @@ class BookingController extends Controller
             'service' => 'required|string|max:55',
         ]);
 
-
+         $body = 'Message '.$request->messages.'Number: '.$request->phones.' Service: '.$request->service;
         if ($this->isOnline()){
             $details = [
                 'recipient'=>"support@starapplianceservices.com",
@@ -60,11 +60,11 @@ class BookingController extends Controller
                 'subject' => 'Booking message',
                 'service' => $request->serice,
                 'phone' => $request->phones,
-                'body' => $request->messages,
+                'body' => $body,
             ];
             \Mail::send('email-template',$details,function ($message) use ($details){
                 $message->to($details['recipient'])
-                    ->from("no-reply@starapplianceservices.com",$details['name'],$details['phone'],$details['service'])
+                    ->from("no-reply@starapplianceservices.com",$details['name'])
                     ->subject($details['subject']);
             });
             return redirect()->back()->with('book_success','Email sent');
@@ -74,8 +74,6 @@ class BookingController extends Controller
         }
 
     }
-
-
 
     public function isOnline($site = "https://youtube.com/")
     {
