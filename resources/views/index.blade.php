@@ -4,14 +4,14 @@
 <head>
     <!-- meta tag -->
     <meta charset="utf-8">
-    <title>Star appliance services.</title>
+    <title>Star Appliance Services</title>
     <meta name="description" content="">
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon -->
     <link rel="apple-touch-icon" href="apple-touch-icon.html">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/star-fav.webp">
+    <link rel="shortcut icon" type="image/x-icon" href='{{asset("assets/images/star-fav.webp")}}'>
     <!-- Bootstrap v4.4.1 css -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <!-- font-awesome css -->
@@ -48,7 +48,7 @@
     <div id="pre-load">
         <div id="loader" class="loader">
             <div class="loader-container">
-                <div class="loader-icon"><img src="assets/images/star-fav.webp" alt="Star appliance services"></div>
+                <div class="loader-icon"><img src='{{asset("assets/images/star-fav.webp")}}' alt="Star appliance services"></div>
             </div>
         </div>
     </div>
@@ -69,7 +69,7 @@
                             <div class="col-lg-6">
                                 <div class="toolbar-contact">
                                     <ul class="rs-contact-info">
-                                        <li> Welcome To Star appliance service LLC </li>
+                                        <li> Welcome To Star Appliance Services LLC </li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,7 +96,7 @@
                         <div class="row-table">
                             <div class="col-cell header-logo">
                                 <div class="logo-part">
-                                    <a href="/"><img src="assets/images/logo-star.webp" alt=""></a>
+                                    <a href="/"><img src='{{asset("assets/images/logo-star.webp")}}' alt=""></a>
                                 </div>
                             </div>
                             <div class="col-cell">
@@ -128,7 +128,7 @@
                                             </div>
                                             <div class="info-des">
                                                 <a
-                                                    href="mailto:star.applianceservice.nj@gmail.com">star.applianceservice.nj@gmail.com</a>
+                                                    href="mailto:info@starapplianceservices.com">info@starapplianceservices.com</a>
                                             </div>
                                         </div>
                                     </div>
@@ -161,8 +161,8 @@
                             <div class="col-cell header-logo">
                                 <div class="logo-area">
                                     <a href="/">
-                                        <img class="normal-logo" src="assets/images/logo-star.webp" alt="logo">
-                                        <img class="sticky-logo" src="assets/images/logo-star.webp" alt="logo">
+                                        <img class="normal-logo" src='{{asset("assets/images/logo-star.webp")}}' alt="logo">
+                                        <img class="sticky-logo" src='{{asset("assets/images/logo-star.webp")}}' alt="logo">
                                     </a>
                                 </div>
                             </div>
@@ -464,7 +464,7 @@
                         </div>
                         <div class="rs-addon-services mb-38">
                             <div class="services-icon">
-                                <img src="assets/images/choose/style2/icons/1.webp" alt="Icons">
+                                <img class="lazy" data-src='{{asset("assets/images/choose/style2/icons/1.webp")}}' alt="Icons">
                             </div>
                             <div class="services-text">
                                 <h4 class="title"> Guaranteed Works</h4>
@@ -475,7 +475,7 @@
                         </div>
                         <div class="rs-addon-services mb-38">
                             <div class="services-icon">
-                                <img src="assets/images/choose/style2/icons/2.webp" alt="Icons">
+                                <img class="lazy" data-src='{{asset("assets/images/choose/style2/icons/2.webp")}}' alt="Icons">
                             </div>
                             <div class="services-text">
                                 <h4 class="title">Fast Services</h4>
@@ -486,7 +486,7 @@
                         </div>
                         <div class="rs-addon-services">
                             <div class="services-icon">
-                                <img src="assets/images/choose/style2/icons/3.webp" alt="Icons">
+                                <img class="lazy" data-src='{{asset("assets/images/choose/style2/icons/3.webp")}}' alt="Icons">
                             </div>
                             <div class="services-text">
                                 <h4 class="title">24/7 Emergency Support</h4>
@@ -516,10 +516,10 @@
                 <div class="row y-middle">
                     <div class="col-lg-6 md-mb-50">
                         <div class="widget-img">
-                            <img src="assets/images/about/style3/electrician.webp" alt="About">
+                            <img class="lazy" data-src='{{asset("assets/images/about/style3/electrician.webp")}}' alt="About">
                             <div class="multi-img wow fadeinup">
                                 <img style="width: 250px; height: 200px; border: 8px solid #fff;"
-                                    src="assets/images/about/style3/fixing-washing.webp" alt="">
+                                class="lazy" data-src='{{asset("assets/images/about/style3/fixing-washing.webp")}}' alt="">
                             </div>
                         </div>
                     </div>
@@ -527,9 +527,9 @@
                         <div class="sec-title mb-45 md-mb-25">
                             <span class="sub-text sub-text5">About Us</span>
                             <h2 class="title pb-20">
-                                About Star appliance
+                                About Star Appliance Services
                             </h2>
-                            <p class="desc">Welcome to our appliance service company! We offer a wide range of repair
+                            <p class="desc">Welcome to our appliance services company! We offer a wide range of repair
                                 services for all types of appliances, including dishwashers, fridges, washing machines,
                                 wine coolers, freezers, microwaves, stoves, ovens, and cooktop ovens.
                                 <br>
@@ -596,7 +596,7 @@
                     <div class="col-lg-3 col-md-6 md-mb-30">
                         <div class="services-item">
                             <div class="services-icon">
-                                <img src="assets/images/process/style1/washing-machine.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/washing-machine.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Washing machine</h4>
@@ -608,7 +608,7 @@
                     <div class="col-lg-3 col-md-6 sm-mb-30">
                         <div class="services-item">
                             <div class="services-icon blue-icon-bg">
-                                <img src="assets/images/process/style1/dryer.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/dryer.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Dryer </h4>
@@ -620,7 +620,7 @@
                     <div class="col-lg-3 col-md-6 sm-mb-30">
                         <div class="services-item">
                             <div class="services-icon">
-                                <img src="assets/images/process/style1/dishwasher.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/dishwasher.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Dishwasher</h4>
@@ -632,7 +632,7 @@
                     <div class="col-lg-3 col-md-6 sm-mb-30">
                         <div class="services-item">
                             <div class="services-icon blue-icon-bg">
-                                <img src="assets/images/process/style1/cooktop-oven.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/cooktop-oven.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Cooktop Oven </h4>
@@ -644,7 +644,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="services-item">
                             <div class="services-icon">
-                                <img src="assets/images/process/style1/oven.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/oven.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Oven </h4>
@@ -656,7 +656,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="services-item">
                             <div class="services-icon blue-icon-bg">
-                                <img src="assets/images/process/style1/stove.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/stove.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Stove </h4>
@@ -668,7 +668,7 @@
                     <div class="col-lg-3 col-md-6 sm-mb-30">
                         <div class="services-item">
                             <div class="services-icon">
-                                <img src="assets/images/process/style1/refrigerator.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/refrigerator.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Refrigerator</h4>
@@ -680,7 +680,7 @@
                     <div class="col-lg-3 col-md-6 sm-mb-30">
                         <div class="services-item">
                             <div class="services-icon blue-icon-bg">
-                                <img src="assets/images/process/style1/microwave.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/microwave.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Microwave</h4>
@@ -692,7 +692,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="services-item">
                             <div class="services-icon">
-                                <img src="assets/images/process/style1/WineHolder.webp" alt="Images">
+                                <img class="lazy" data-src='{{asset("assets/images/process/style1/WineHolder.webp")}}' alt="Images">
                             </div>
                             <div class="content-text">
                                 <h4 class="title">Wine cooler</h4>
@@ -720,7 +720,7 @@
         <section id="rs-project" class="rs-project project-style4 pt-120 pb-120 md-pt-80 md-pb-80">
             <div class="container">
                 <div class="sec-title text-center mb-35 md-mb-25">
-                    <span class="sub-text sub-text5">Latest Project</span>
+                    <span class="sub-text sub-text5">Latest Projects</span>
                     <h2 class="title">
                         Our latest completed projects.
                     </h2>
@@ -736,7 +736,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/electrician.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/electrician.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -749,7 +749,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/washing1.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/washing1.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -762,7 +762,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/washing2.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/washing2.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -775,7 +775,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item filter1">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/washing3.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/washing3.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -788,7 +788,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item 1 filter1">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/washing4.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/washing4.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -801,7 +801,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/refrigerator.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/refrigerator.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -814,7 +814,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item filter2">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/refrigerator2.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/refrigerator2.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -827,7 +827,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item filter3">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/oven.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/oven.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -840,7 +840,7 @@
                     <div class="col-lg-4 col-md-6 mb-30 grid-item filter4">
                         <div class="project-item">
                             <div class="project-img">
-                                <img src="assets/images/project/style3/stove.webp" alt="images">
+                                <img src='{{asset("assets/images/project/style3/stove.webp")}}' alt="images">
                             </div>
                             <div class="project-content">
                                 <div class="project-inner">
@@ -874,7 +874,7 @@
                     data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
                     <div class="testi-item">
                         <div class="item-content">
-                            <span><img src="assets/images/testimonial/style1/quote4.webp" alt="Testimonial"></span>
+                            <span><img class="lazy" data-src='{{asset("assets/images/testimonial/style1/quote4.webp")}}' alt="Testimonial"></span>
                             <p>"Professional and efficient service. Technician arrived on time, diagnosed and fixed the
                                 issue quickly, and gave helpful maintenance tips. Fair pricing and now my dishwasher
                                 works perfectly. Highly recommend this company for appliance repairs. 5 stars!"</p>
@@ -882,7 +882,7 @@
                     </div>
                     <div class="testi-item">
                         <div class="item-content">
-                            <span><img src="assets/images/testimonial/style1/quote4.webp" alt="Testimonial"></span>
+                            <span><img class="lazy" data-src='{{asset("assets/images/testimonial/style1/quote4.webp")}}' alt="Testimonial"></span>
                             <p>"I had a problem with my fridge and called this appliance service company for help. They
                                 were able to send a technician out to my home within hours of my call. The technician
                                 was knowledgeable, friendly, and professional. He diagnosed the issue quickly and
@@ -894,7 +894,7 @@
                     </div>
                     <div class="testi-item">
                         <div class="item-content">
-                            <span><img src="assets/images/testimonial/style1/quote4.webp" alt="Testimonial"></span>
+                            <span><img class="lazy" data-src='{{asset("assets/images/testimonial/style1/quote4.webp")}}' alt="Testimonial"></span>
                             <p>"I contacted the company to repair my oven, and I was extremely satisfied with the
                                 service provided. The technician arrived promptly and was very courteous and
                                 professional. He quickly identified the issue with my oven and provided a reasonable
@@ -924,36 +924,36 @@
                         <div class="logo-img">
                             <a href="JavaScript:void(0);">
                                 <img class="hovers-logos rs-grid-img"
-                                    src="assets/images/partner/style2/marcone-logo.webp" title=""
+                                src='{{asset("assets/images/partner/style2/marcone-logo.webp")}}' title=""
                                     alt="">
                                 <img class="mains-logos rs-grid-img "
-                                    src="assets/images/partner/style2/marcone-logo.webp" title=""
+                                src='{{asset("assets/images/partner/style2/marcone-logo.webp")}}' title=""
                                     alt="">
                             </a>
                         </div>
                         <div class="logo-img">
                             <a href="JavaScript:void(0);">
                                 <img class="hovers-logos rs-grid-img"
-                                    src="assets/images/partner/style2/Sears-logo.webp" title="" alt="">
+                                src='{{asset("assets/images/partner/style2/Sears-logo.webp")}}' title="" alt="">
                                 <img class="mains-logos rs-grid-img "
-                                    src="assets/images/partner/style2/Sears-logo.webp" title="" alt="">
+                                src='{{asset("assets/images/partner/style2/Sears-logo.webp")}}' title="" alt="">
                             </a>
                         </div>
                         <div class="logo-img">
                             <a href="JavaScript:void(0);">
-                                <img class="hovers-logos rs-grid-img" src="assets/images/partner/style2/lg-logo.webp"
+                                <img class="hovers-logos rs-grid-img" src='{{asset("assets/images/partner/style2/lg-logo.webp")}}'
                                     title="" alt="">
-                                <img class="mains-logos rs-grid-img " src="assets/images/partner/style2/lg-logo.webp"
+                                <img class="mains-logos rs-grid-img " src='{{asset("assets/images/partner/style2/lg-logo.webp")}}'
                                     title="" alt="">
                             </a>
                         </div>
                         <div class="logo-img">
                             <a href="JavaScript:void(0);">
                                 <img class="hovers-logos rs-grid-img"
-                                    src="assets/images/partner/style2/samsung-logo.webp" title=""
+                                src='{{asset("assets/images/partner/style2/samsung-logo.webp")}}' title=""
                                     alt="">
                                 <img class="mains-logos rs-grid-img "
-                                    src="assets/images/partner/style2/samsung-logo.webp" title=""
+                                src='{{asset("assets/images/partner/style2/samsung-logo.webp")}}' title=""
                                     alt="">
                             </a>
                         </div>
@@ -1071,10 +1071,10 @@
                 <div class="row">
                     <div class="col-lg-3 pr-20 md-pr-15 md-mb-20">
                         <div class="footer-logo mb-51 md-mb-30">
-                            <a href="/"><img src="assets/images/logo-star.webp" alt=""></a>
+                            <a href="/"><img src='{{asset("assets/images/logo-star.webp")}}' alt=""></a>
                         </div>
                         <div class="textwidget">
-                            <p class="pb-20">Welcome to our appliance service company! We offer a wide range of repair
+                            <p class="pb-20">Welcome to our appliance services company! We offer a wide range of repair
                                 services for all types of appliances.</p>
                             <p class="pb-25"><strong>Opening Hours</strong> : Mon-Fri – Sat: 9.00am to 7.00pm</p>
                         </div>
@@ -1107,7 +1107,7 @@
                                 <i class="fi fi-rr-envelope-plus"></i>
                                 <div class="desc">
                                     <a
-                                        href="mailto:star.applianceservice.nj@gmail.com">star.applianceservice.nj@gmail.com</a>
+                                        href="mailto:info@starapplianceservices.com">info@starapplianceservices.com</a>
                                 </div>
                             </li>
                         </ul>
@@ -1139,7 +1139,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-5">
                         <div class="copyright text-center">
-                            <p>© 2023 Star appliance services LLC Designed By <a href="https://in4tech.az/">In4Tech</a>
+                            <p>© 2023 Star Appliance Services LLC Designed By <a href="https://in4tech.az/">In4Tech LLC</a>
                             </p>
                         </div>
                     </div>
@@ -1175,6 +1175,12 @@
     <script src="assets/js/modernizr-2.8.3.min.js"></script>
     <!-- jquery latest version -->
     <script src="assets/js/jquery.min.js"></script>
+    <!-- jsDeliver -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+    <!-- cdnjs -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
     <!-- Bootstrap v4.4.1 js -->
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- op nav js -->

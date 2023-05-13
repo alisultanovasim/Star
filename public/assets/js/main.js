@@ -291,8 +291,8 @@
 
   //preloader
   $(window).on("load", function () {
-    $("#pre-load").delay(600).fadeOut(500);
-    $(".pre-loader").delay(600).fadeOut(500);
+    $("#pre-load").delay(200).fadeOut(100);
+    $(".pre-loader").delay(200).fadeOut(100);
 
     if ($(window).width() < 992) {
       $(".rs-menu").css("height", "0");
@@ -699,3 +699,15 @@ window.addEventListener('scroll', () => {
   });
 });
 
+
+
+//lazy load
+$('.lazy').Lazy({
+  // your configuration goes here
+  scrollDirection: 'vertical',
+  visibleOnly: true,
+  onError: function(element) {
+      console.log('error loading ' + element.data('src'));
+  }
+});
+      
