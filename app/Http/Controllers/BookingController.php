@@ -56,7 +56,7 @@ class BookingController extends Controller
 
         if ($this->isOnline()){
             $details = [
-                'recipient'=>"e.gadimli@in4tech.az",
+                'recipient'=>env("MAIl_RECIPIENT"),
                 'name' => $request->name,
                 'email' => $request->email,
                 'subject' => 'Message',
@@ -65,7 +65,7 @@ class BookingController extends Controller
             ];
             \Mail::send('email-template',$details,function ($message) use ($details){
                 $message->to($details['recipient'])
-                    ->from("a.alisultanoff@in4tech.az",$details['name'],$details['phone'])
+                    ->from(env("MAIL_FROM"),$details['name'],$details['phone'])
                     ->subject($details['subject']);
             });
             return redirect()->back()->with('success','Email sent');
