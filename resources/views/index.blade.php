@@ -4,7 +4,7 @@
 <head>
     <!-- meta tag -->
     <meta charset="utf-8">
-    <title>Star appliance services.</title>
+    <title>Star Appliance Services</title>
     <meta name="description" content="">
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -69,7 +69,7 @@
                             <div class="col-lg-6">
                                 <div class="toolbar-contact">
                                     <ul class="rs-contact-info">
-                                        <li> Welcome To Star appliance service LLC </li>
+                                        <li> Welcome To Star Appliance Services LLC </li>
                                     </ul>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@
                                             </div>
                                             <div class="info-des">
                                                 <a
-                                                    href="mailto:star.applianceservice.nj@gmail.com">star.applianceservice.nj@gmail.com</a>
+                                                    href="mailto:info@starapplianceservices.com">info@starapplianceservices.com</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1107,7 +1107,7 @@
                                 <i class="fi fi-rr-envelope-plus"></i>
                                 <div class="desc">
                                     <a
-                                        href="mailto:star.applianceservice.nj@gmail.com">star.applianceservice.nj@gmail.com</a>
+                                        href="mailto:info@starapplianceservices.com">info@starapplianceservices.com</a>
                                 </div>
                             </li>
                         </ul>
