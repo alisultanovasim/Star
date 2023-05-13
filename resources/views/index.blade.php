@@ -527,9 +527,9 @@
                         <div class="sec-title mb-45 md-mb-25">
                             <span class="sub-text sub-text5">About Us</span>
                             <h2 class="title pb-20">
-                                About Star appliance
+                                About Star Appliance Services
                             </h2>
-                            <p class="desc">Welcome to our appliance service company! We offer a wide range of repair
+                            <p class="desc">Welcome to our appliance services company! We offer a wide range of repair
                                 services for all types of appliances, including dishwashers, fridges, washing machines,
                                 wine coolers, freezers, microwaves, stoves, ovens, and cooktop ovens.
                                 <br>
@@ -720,7 +720,7 @@
         <section id="rs-project" class="rs-project project-style4 pt-120 pb-120 md-pt-80 md-pb-80">
             <div class="container">
                 <div class="sec-title text-center mb-35 md-mb-25">
-                    <span class="sub-text sub-text5">Latest Project</span>
+                    <span class="sub-text sub-text5">Latest Projects</span>
                     <h2 class="title">
                         Our latest completed projects.
                     </h2>
@@ -1074,7 +1074,7 @@
                             <a href="/"><img src='{{asset("assets/images/logo-star.webp")}}' alt=""></a>
                         </div>
                         <div class="textwidget">
-                            <p class="pb-20">Welcome to our appliance service company! We offer a wide range of repair
+                            <p class="pb-20">Welcome to our appliance services company! We offer a wide range of repair
                                 services for all types of appliances.</p>
                             <p class="pb-25"><strong>Opening Hours</strong> : Mon-Fri – Sat: 9.00am to 7.00pm</p>
                         </div>
@@ -1139,7 +1139,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-5">
                         <div class="copyright text-center">
-                            <p>© 2023 Star appliance services LLC Designed By <a href="https://in4tech.az/">In4Tech</a>
+                            <p>© 2023 Star Appliance Services LLC Designed By <a href="https://in4tech.az/">In4Tech LLC</a>
                             </p>
                         </div>
                     </div>
