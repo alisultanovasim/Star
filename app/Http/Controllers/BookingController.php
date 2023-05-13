@@ -11,6 +11,36 @@ class BookingController extends Controller
     {
         return view('index');
     }
+
+    public function message(Request $request)
+    {
+        $this->validate($request,[
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'phone' => 'required|string|max:255',
+            'message' => 'required|string',
+        ]);
+
+        if ($this->isOnline()){
+            $details = [
+                'recipient'=>"support@starapplianceservices.com",
+                'name' => $request->name,
+                'email' => $request->email,
+                'subject' => 'Message',
+                'phone' => $request->phone,
+                'body' => $request->message,
+            ];
+            \Mail::send('email-template',$details,function ($message) use ($details){
+                $message->to($details['recipient'])
+                    ->from("no-reply@starapplianceservices.com",$details['name'],$details['phone'])
+                    ->subject($details['subject']);
+            });
+            return redirect()->back()->with('success','Email sent');
+        }
+        else{
+            return redirect()->back()->withInput()->with('error','Check your internet connection');
+        }
+    }
     public function book(Request $request)
     {
          $this->validate($request, [
@@ -24,7 +54,7 @@ class BookingController extends Controller
 
         if ($this->isOnline()){
             $details = [
-                'recipient'=> env("MAIl_RECIPIENT"),
+                'recipient'=>"support@starapplianceservices.com",
                 'name' => $request->names,
                 'email' => $request->emails,
                 'subject' => 'Booking message',
@@ -34,7 +64,7 @@ class BookingController extends Controller
             ];
             \Mail::send('email-template',$details,function ($message) use ($details){
                 $message->to($details['recipient'])
-                    ->from(env("MAIL_FROM"),$details['name'],$details['phone'],$details['service'])
+                    ->from("no-reply@starapplianceservices.com",$details['name'],$details['phone'],$details['service'])
                     ->subject($details['subject']);
             });
             return redirect()->back()->with('book_success','Email sent');
@@ -45,35 +75,7 @@ class BookingController extends Controller
 
     }
 
-    public function message(Request $request)
-    {
-        $this->validate($request,[
-            'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'phone' => 'required|string|max:255',
-            'message' => 'required|string',
-        ]);
 
-        if ($this->isOnline()){
-            $details = [
-                'recipient'=>env("MAIl_RECIPIENT"),
-                'name' => $request->name,
-                'email' => $request->email,
-                'subject' => 'Message',
-                'phone' => $request->phone,
-                'body' => $request->message,
-            ];
-            \Mail::send('email-template',$details,function ($message) use ($details){
-                $message->to($details['recipient'])
-                    ->from(env("MAIL_FROM"),$details['name'],$details['phone'])
-                    ->subject($details['subject']);
-            });
-            return redirect()->back()->with('success','Email sent');
-        }
-        else{
-            return redirect()->back()->withInput()->with('error','Check your internet connection');
-        }
-    }
 
     public function isOnline($site = "https://youtube.com/")
     {
